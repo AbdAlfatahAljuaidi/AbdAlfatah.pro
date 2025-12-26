@@ -2,7 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import HeroImage from '../../assets/Hero.jpeg';
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <section
     id="home"

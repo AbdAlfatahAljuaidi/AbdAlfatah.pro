@@ -41,9 +41,9 @@ const ResumeSection = () => {
             <h3 className="text-2xl font-bold text-[#052d54] uppercase mb-6">Certificates</h3>
             
             <div className="space-y-8">
-              <CertificateItem title="Application Developer" company="the hope international company" date="Feb-2022" />
               <CertificateItem title="BBC Course" company="BBC english center 12 level" date="Apr-2021" />
               <CertificateItem title="Unity Gaming" company="the hope international company" date="May-2021" />
+              <CertificateItem title="Application Developer" company="the hope international company" date="Feb-2022" />
               <CertificateItem title="communication skills" company="Amman arab university" date="July-2022" />
             </div>
           </div>
@@ -67,9 +67,9 @@ const ResumeSection = () => {
             <h3 className="text-2xl font-bold text-[#052d54] uppercase mb-6">Professional Experience</h3>
             
             <div className="space-y-8">
-              <ExperienceItem title="Full Insight Technology Solution company" desc="I worked at Full Insight Technology Solution for a year" date="2024" />
               <ExperienceItem title="University of Jordan center" desc="I worked at the University of Jordan Gateway tele-marketing center" date="2023" />
               <ExperienceItem title="sales representative" desc="I worked as a daily sales representative" date="2023" />
+              <ExperienceItem title="Full Insight Technology Solution company" desc="I worked at Full Insight Technology Solution for a year" date="2024" />
               <ExperienceItem title="training" desc="I trained at Hope International Company in the field of web development" date="2024" />
             </div>
           </div>
