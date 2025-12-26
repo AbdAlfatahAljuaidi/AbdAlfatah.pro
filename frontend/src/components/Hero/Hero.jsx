@@ -1,16 +1,19 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import HeroImage from '../../assets/Hero.png';
+import HeroImage from '../../assets/Hero.jpeg';
 
 const Hero = () => {
   return (
     <section
     id="home"
-      className="relative w-full h-screen flex items-center justify-center text-center bg-cover bg-fixed bg-center"
-      style={{
-        backgroundImage: `url(${HeroImage})`,
-      }}
-    >
+    className="relative w-full h-screen flex items-center justify-center text-center bg-cover bg-center bg-no-repeat"
+    style={{
+      backgroundImage: `url(${HeroImage})`,
+      // إضافة هذه الأسطر لضمان احتواء الصورة بشكل أفضل
+      backgroundSize: 'cover', 
+      backgroundAttachment: 'scroll' // بدلاً من fixed
+    }}
+  >
       {/* تراكب داكن لتحسين وضوح النص */}
       <div className="absolute inset-0 bg-black/60" ></div>
 

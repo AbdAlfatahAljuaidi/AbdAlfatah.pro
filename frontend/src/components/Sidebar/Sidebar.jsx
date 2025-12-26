@@ -9,7 +9,7 @@ const Sidebar = () => {
     <div className="fixed top-0 left-0 h-screen z-50">
       {/* زر القائمة على الشاشات الصغيرة */}
       <button
-        className="md:hidden fixed top-4 left-4 z-50 text-white text-2xl"
+        className="md:hidden fixed top-4 left-4 z-50 text-black text-2xl"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <FaTimes /> : <FaBars />}
