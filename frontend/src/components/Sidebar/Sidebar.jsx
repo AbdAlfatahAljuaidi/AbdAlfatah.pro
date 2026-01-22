@@ -10,10 +10,10 @@ const Sidebar = () => {
       {/* زر القائمة على الشاشات الصغيرة */}
     
       <button
-        className={`md:hidden fixed top-4 left-4 z-50 text-white ${isOpen? "" : "bg-black" }  h-12 w-12 rounded-full text-2xl`}
+        className={`md:hidden fixed top-4 left-4 z-50 text-white ${isOpen? "" : "bg-black" }  h-11 w-11 rounded-full text-2xl`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {isOpen ? <FaTimes /> : <FaBars className=" mx-auto" />}
+        {isOpen ? <FaTimes /> : <FaBars className=" text-xl mx-auto" />}
       </button>
    
 
