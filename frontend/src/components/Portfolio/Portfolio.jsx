@@ -8,6 +8,7 @@ import Image6 from '../../assets/site6.png'; // Ocean
 import Image7 from '../../assets/site7.png'; // Optibyte
 import Image8 from '../../assets/site8.png'; // Resume
 import Image9 from '../../assets/site9.png'; // Task To do 
+import Image10 from '../../assets/site10.png'; // My Resume 
 
 const PortfolioSection = () => {
   const [filter, setFilter] = useState('all');
@@ -22,6 +23,7 @@ const PortfolioSection = () => {
     { id: 7, category: 'fullstack', title: "Optibyte System", image: Image7, link: "https://optibyte.onrender.com" },
     { id: 8, category: 'fullstack', title: "Professional Resume", image: Image8, link: "https://resume-sr1q.onrender.com/" },
     { id: 9, category: 'fullstack', title: "Task to do", image: Image9, link: "https://note-app-nine-cyan.vercel.app/" },
+    { id: 10, category: 'AI', title: "My Resume", image: Image10, link: "https://resumeai-zos1.onrender.com" },
   ];
 
   // تصفية المشاريع بناءً على التصنيف المختار
@@ -34,6 +36,7 @@ const PortfolioSection = () => {
     { id: 'fullstack', label: 'Full Stack (React/Node)' },
     { id: 'modern', label: 'Modern Web (Next.js)' },
     { id: 'ui', label: 'Frontend UI (HTML/CSS)' },
+    { id: 'AI', label: 'Full Stack (React/Node) with AI' },
   ];
 
   return (

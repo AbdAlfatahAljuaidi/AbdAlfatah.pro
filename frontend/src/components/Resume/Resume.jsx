@@ -69,7 +69,7 @@ const ResumeSection = () => {
             <div className="space-y-8">
               <ExperienceItem title="University of Jordan center" desc="I worked at the University of Jordan Gateway tele-marketing center" date="2023" />
               <ExperienceItem title="sales representative" desc="I worked as a daily sales representative" date="2023" />
-              <ExperienceItem title="Full Insight Technology Solution company" desc="I worked at Full Insight Technology Solution for a year" date="2024" />
+              <ExperienceItem title="Full Insight Technology Solution company" desc="I worked at Full Insight Technology Solution for 2 years" date="2024 - 2026" />
               <ExperienceItem title="training" desc="I trained at Hope International Company in the field of web development" date="2024" />
             </div>
           </div>
