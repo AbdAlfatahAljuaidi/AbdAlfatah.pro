@@ -48,13 +48,13 @@ const About = () => {
 
             {/* Details */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-2 text-gray-700">
-              <DetailItem label="Website" value="Abd Alfattah Aljuaidi" />
+              <DetailItem label="Website" value="Abd Alfatah Aljuaidi" />
               <DetailItem label="Degree" value="Bachelor OF Software Engineer" />
               <DetailItem label="Phone" value="+962 7824033" />
               <DetailItem label="Field" value="Full-Stack developer" />
               <DetailItem label="City" value="Amman Jordan" />
               <DetailItem label="Experience" value="React.js - Node.js" />
-              <DetailItem label="Email" value="abdalfattah.aljuaidi@gmail.com" />
+              <DetailItem label="Email" value="abdalfatah.aljuaidi@gmail.com" />
               <DetailItem label="Freelance" value="Available" />
             </div>
           </div>
