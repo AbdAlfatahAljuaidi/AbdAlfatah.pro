@@ -22,7 +22,7 @@ export const Services = () => {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 pt-16 bg-white">
+    <section className="max-w-7xl mx-auto px-6 pt-16 bg-white" id='service'>
       {/* العنوان */}
       <h2 className="text-4xl font-bold text-[#052d54] mb-2 relative inline-block">
         Services
