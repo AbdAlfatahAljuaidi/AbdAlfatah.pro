@@ -34,7 +34,7 @@ export const Contact = () => {
           />
           
           {/* حاوية الخريطة */}
-          <div className="w-full h-64 bg-gray-100 mt-6 overflow-hidden rounded-sm grayscale hover:grayscale-0 transition-all duration-500">
+          <div className="w-full h-64 bg-gray-100 mt-6 overflow-hidden rounded-sm transition-all duration-500">
              <iframe 
                title="map"
                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216594.252044813!2d35.707738!3d31.9515694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b590213075011%3A0x24a049947f7a280!2sAmman!5e0!3m2!1sen!2sjo!4v1625000000000" 
