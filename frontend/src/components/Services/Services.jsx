@@ -1,6 +1,6 @@
 import React from 'react';
 // استيراد كافة الأيقونات من مجموعة Font Awesome
-import { FaCode, FaCheckDouble, FaPenNib } from "react-icons/fa";
+import { FaCode, FaCheckDouble, FaPenNib, FaTasks } from "react-icons/fa";
 
 export const Services = () => {
   const services = [
@@ -18,6 +18,11 @@ export const Services = () => {
       title: "UI/UX", 
       icon: <FaPenNib size={20}/>, 
       desc: "Creating user-friendly interfaces with captivating designs to optimize user experience" 
+    },
+    { 
+      title: "Project Management", 
+      icon: <FaTasks size={20}/>, 
+      desc: "Planning, organizing, and executing projects efficiently to deliver high-quality results on time" 
     }
   ];
 

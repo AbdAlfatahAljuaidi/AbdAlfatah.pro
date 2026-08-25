@@ -50,7 +50,7 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-2 text-gray-700">
               <DetailItem label="Website" value="Abd Alfatah Aljuaidi" />
               <DetailItem label="Degree" value="Bachelor OF Software Engineer" />
-              <DetailItem label="Phone" value="+962 7824033" />
+              <DetailItem label="Phone" value="+962 7 8240 7533" />
               <DetailItem label="Field" value="Full-Stack developer" />
               <DetailItem label="City" value="Amman Jordan" />
               <DetailItem label="Experience" value="React.js - Node.js" />
