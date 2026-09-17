@@ -52,7 +52,7 @@ const Sidebar = () => {
         </div>
 
         {/* روابط التنقل */}
-        <nav className="mt-6 flex flex-col gap-3 text-gray-300 text-base">
+        <nav className="mt-4 flex flex-col gap-3 text-gray-300 text-base">
           <a href="#home" onClick={() => setIsOpen(false)} className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-800 hover:text-blue-400 transition-all text-blue-500 font-semibold">
             <FaHome /> Home
           </a>
